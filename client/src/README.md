@@ -44,3 +44,13 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# 디렉토리 구조
+
+- \_actions, \_reducer: redux를 위한 디렉토리
+- components/views: Page들을 넣음
+- components/views/Sections: 각 페이지의 css와 component들을 넣는다.
+- app.ts: 각 페이지로 갈 수 있는 라우팅 관련 일 처리.
+- config.ts: 환경변수 선언
+- hoc: higher order component[hoc](https://ko.reactjs.org/docs/higher-order-components.html).
+- utils: 유틸성 함수
